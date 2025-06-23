@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Globe, Mail } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export default function Home() {
   const links = [
@@ -15,18 +15,6 @@ export default function Home() {
       icon: Linkedin,
       className: "bg-blue-600 hover:bg-blue-700 text-white",
     },
-    {
-      name: "Visit Portfolio",
-      url: "https://yourwebsite.com",
-      icon: Globe,
-      className: "bg-emerald-600 hover:bg-emerald-700 text-white",
-    },
-    {
-      name: "Send Email",
-      url: "mailto:hello@yourname.com",
-      icon: Mail,
-      className: "bg-purple-600 hover:bg-purple-700 text-white",
-    },
   ];
 
   return (
@@ -38,7 +26,7 @@ export default function Home() {
             <img
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
               alt="Profile picture"
-              className="w-24 h-24 rounded-full object-cover border-4 border-blue-100 shadow-lg hover:border-blue-200 transition-colors duration-300"
+              className="w-30 h-30 rounded-full object-cover border-4 border-blue-100 shadow-lg hover:border-blue-200 transition-colors duration-300"
             />
           </div>
 
