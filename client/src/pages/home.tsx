@@ -5,13 +5,13 @@ export default function Home() {
   const links = [
     {
       name: "View GitHub",
-      url: "https://github.com",
+      url: "https://github.com/keelnu",
       icon: Github,
       className: "bg-gray-800 hover:bg-gray-900 text-white",
     },
     {
       name: "Connect on LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/kristiina-eelnurme",
       icon: Linkedin,
       className: "bg-blue-600 hover:bg-blue-700 text-white",
     },
