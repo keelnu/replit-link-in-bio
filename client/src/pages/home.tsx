@@ -24,7 +24,7 @@ export default function Home() {
           {/* Profile Image */}
           <div className="mb-6 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              src="https://keelnu.github.io/images/headshot_800x800.jpg"
               alt="Profile picture"
               className="w-30 h-30 rounded-full object-cover border-4 border-blue-100 shadow-lg hover:border-blue-200 transition-colors duration-300"
             />
@@ -33,10 +33,10 @@ export default function Home() {
           {/* Profile Info */}
           <div className="mb-8 animate-slide-up">
             <h1 className="text-2xl font-bold text-gray-800 mb-3">
-              Your Name
+              Kristiina Eelnurme
             </h1>
             <p className="text-gray-600 text-sm leading-relaxed max-w-xs mx-auto">
-              Your professional bio goes here. Share what you do, your passions, or what visitors can expect to find through your links.
+            Software Engineer 💻 JavaScript, React, NextJS, Node 👾 Cat Mama 🐈
             </p>
           </div>
 
